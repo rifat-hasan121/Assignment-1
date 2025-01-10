@@ -388,28 +388,57 @@ td {
   transition-property: calc(1.1);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
-.newletter {
+.new-letter{
   width: 1280px;
   height: 395px;
   background-color: rgba(198, 228, 214, 1);
   margin: 80px auto;
   border-radius: 24px;
+  text-align: center;
 
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
-.letter-headding {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 48px;
-  margin-bottom: 16px;
+
+.newletter {
+  display: flex;
 }
-.newletter-section {
+.newletter-cont{
+  margin: 80px auto;
   width: 622px;
-  margin: 32px auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: 112px;
+  
+  
+
+}
+.newletter-head{
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 1);
+}
+.newletter-para{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.input-mail{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  padding: 18px 403px 18px 40px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+.sub2{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  color: #fff;
+  background-color: rgba(0, 106, 80, 1);
 }
