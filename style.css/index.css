@@ -6,67 +6,223 @@
 }
 body {
   font-family: Fira Sans;
+  background-color: rgb(244, 247, 247);
 }
-.navbar{
-    margin: 50px 150px;
+
+/* start header */
+.navbar {
+  margin: 50px 150px;
 }
-.navbar ul{
-    display: flex;
-    justify-content: space-between;
-    
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
 }
-.navbar ul li{
-    list-style: none;
+.navbar ul li {
+  list-style: none;
 }
-.nav{
-    font-size: 28px;
-    font-weight: 800;
-    color: rgba(14, 14, 14, 1);
+.nav {
+  font-size: 28px;
+  font-weight: 800;
+  color: rgba(14, 14, 14, 1);
 }
-.nav2{
-    font-size: 20px;
-    color: rgba(0, 106, 80, 1);
-    border: 1px solid rgba(0, 106, 80, 1);
-    border-radius: 5px;
-    padding: 5px 20px;
+.nav2 {
+  font-size: 20px;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
+  border-radius: 5px;
+  padding: 5px 20px;
 }
-.bannar{
-    background-color: rgba(198, 228, 214, 1);
+.bannar {
+  background-color: rgba(198, 228, 214, 1);
+  width: 1280px;
+  height: 560px;
+  border-radius: 24px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bannar-sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgba(14, 14, 14, 0.5);
+}
+.bannar-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  margin-top: 16px;
+  color: rgba(14, 14, 14, 1);
+}
+.bannar-img{
+    width: 474px;
+    height: 400px;
+}
+.text {
+  width: 622px;
+  height: 326px;
+  gap: 23px;
+}
+.btn1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px;
+  margin-top: 41px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* end header */
+
+/* start Pillars of "Bangladesh 2.0" section */
+.Pillars {
+  margin: 80px auto;
+  width: 1280px;
+  height: 324px;
+}
+.pillars-title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 1);
+}
+
+.pillars-cards {
+  margin: 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.cards, .cards2, .cards3 {
+  width: 254px;
+  height: 230px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 16px;
+}
+.card, img{
+    width: 62px;
+    height: 64px;
+    margin-top: 24px;
+}
+.cards-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+}
+.card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 12px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.vishon{
     width: 1280px;
-    height: 560px;
-    border-radius: 24px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 765px;
+    margin: 80px auto;
 }
-.bannar-sub-title{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    color: rgba(14, 14, 14, 0.5);
-}
-.bannar-title{
-    font-size: 56px;
+.vishon-head{
+    font-size: 40px;
+    line-height: 48px;
     font-weight: 700;
-    line-height: 67px;
-    margin-top: 16px;
     color: rgba(14, 14, 14, 1);
 }
-.text{
-    width: 622px;
-    height: 326px;
-    gap: 23px;
+.vishon-para{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
 }
-.btn1{
-    color: rgba(255, 255, 255, 1);
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21px;
-    background-color: rgba(0, 106, 80, 1);
-    padding: 17px 34px;
-    margin-top: 41px;
+.vishon-cards{
+    display: flex;
+    gap: 24px;
+}
+.vishon-cards > .cards{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vishon-cards > .cards > img{
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+.vishon-cards > .cards > .cards-title{
+    margin-bottom: 5px;
+}
+.btn2{
+    background-color: rgba(84, 144, 245, 1);
+    color: fff;
+    padding: 11px 20px;
     border: none;
     border-radius: 8px;
+    margin-top: 20px;
+}
 
+.vishon-cards > .cards3{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vishon-cards > .cards3 > img{
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+.vishon-cards > .cards3 > .cards-title{
+    margin-bottom: 5px;
+}
+
+.vishon-cards > .cards2{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vishon-cards > .cards2 > img{
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+.vishon-cards > .cards2 > .cards-title{
+    margin-bottom: 5px;
+}
+.yunus{
+    width: 1280px;
+    height: 156px;
+    margin: 32px auto;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.yunus-quites{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    
+
+}
+.name{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+}
+.name-desc{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 4px;
+    color: rgba(14, 14, 14, 0.6);
 }
