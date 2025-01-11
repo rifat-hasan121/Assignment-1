@@ -13,12 +13,11 @@ body {
 .navbar {
   margin: 50px 150px;
 }
-.span1{
+.span1 {
   color: red;
 }
-.span2{
+.span2 {
   color: green;
-  
 }
 .navbar ul {
   display: flex;
@@ -33,7 +32,7 @@ body {
   color: rgba(14, 14, 14, 1);
   cursor: pointer;
 }
-.nav:hover{
+.nav:hover {
   transform: scale(1.1);
 }
 
@@ -238,10 +237,18 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
-  background: url(../assets/double\ quote.png);
-
+  position: relative;
   background-repeat: no-repeat;
   background-size: 60px;
+}
+.quote img{
+  width: 64px;
+  height: 64px;
+  /* background-image: url(../assets/quote-bg.png); */
+  background-size: cover;
+  background-position: top left;
+  margin-bottom: 10px ;
+  position: absolute;
 }
 .name {
   font-size: 20px;
@@ -390,7 +397,6 @@ td {
   transform: scale(1.1);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   background-color: rgba(198, 228, 214, 1);
-
 }
 .input {
   text-align: center;
@@ -521,7 +527,7 @@ footer {
   color: rgba(14, 14, 14, 1);
   cursor: pointer;
 }
-.footer-head:hover{
+.footer-head:hover {
   color: red;
 }
 hr {
