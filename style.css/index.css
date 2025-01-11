@@ -13,6 +13,13 @@ body {
 .navbar {
   margin: 50px 150px;
 }
+.span1{
+  color: red;
+}
+.span2{
+  color: green;
+  
+}
 .navbar ul {
   display: flex;
   justify-content: space-between;
@@ -35,8 +42,10 @@ body {
   padding: 5px 20px;
   cursor: pointer;
 }
-.nav2:hover{
+.nav2:hover {
   transform: scale(1.1);
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .bannar {
   background-color: rgba(198, 228, 214, 1);
@@ -80,8 +89,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-.btn1:hover{
+.btn1:hover {
   transform: scale(1.1);
+  background-color: red;
+  color: white;
 }
 /* end header */
 
@@ -108,7 +119,7 @@ body {
 .cards2,
 .cards3 {
   width: 254px;
-  height: 230px;
+  height: 240px;
   padding: 24px;
   background-color: rgba(255, 255, 255, 1);
   border: none;
@@ -177,8 +188,10 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
-.btn2:hover{
+.btn2:hover {
   transform: scale(1.1);
+  background-color: red;
+  color: white;
 }
 
 .vishon-cards > .cards3 {
@@ -222,6 +235,10 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
+  background: url(../assets/double\ quote.png);
+
+  background-repeat: no-repeat;
+  background-size: 60px;
 }
 .name {
   font-size: 20px;
@@ -243,11 +260,11 @@ body {
   height: 481px;
   margin: 80px auto;
 }
-table,
+/* table,
 td {
   width: ;
   border: 1px solid black;
-}
+} */
 
 .news {
   width: 1280px;
@@ -319,8 +336,10 @@ td {
   margin-top: 32px;
   cursor: pointer;
 }
-.news-btn:hover{
+.news-btn:hover {
   transform: scale(1.1);
+  background-color: red;
+  color: white;
 }
 
 .donate {
@@ -368,6 +387,8 @@ td {
   transform: scale(1.1);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   background-color: rgba(198, 228, 214, 1);
+  background-color: red;
+  color: white;
 }
 .input {
   text-align: center;
@@ -405,36 +426,34 @@ td {
   transition-duration: 1s;
   transition-property: calc(1.1);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: red;
+  color: white;
 }
-.new-letter{
+.new-letter {
   width: 1280px;
   height: 395px;
   background-color: rgba(198, 228, 214, 1);
   margin: 80px auto;
   border-radius: 24px;
   text-align: center;
-
 }
 
 .newletter {
   display: flex;
 }
-.newletter-cont{
+.newletter-cont {
   margin: 0px auto;
   width: 622px;
   height: 112px;
-  
-  
-
 }
-.newletter-head{
+.newletter-head {
   margin-top: 80px;
   font-size: 40px;
   line-height: 48px;
   font-weight: 700;
   color: rgba(14, 14, 14, 1);
 }
-.newletter-para{
+.newletter-para {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -442,7 +461,7 @@ td {
   color: rgba(14, 14, 14, 0.7);
 }
 
-.input-mail{
+.input-mail {
   margin-top: 100px;
   font-size: 16px;
   line-height: 21px;
@@ -452,7 +471,7 @@ td {
   border: none;
   border-radius: 8px 0 0 8px;
 }
-.sub2{
+.sub2 {
   font-size: 18px;
   font-weight: 600;
   line-height: 21px;
@@ -463,11 +482,13 @@ td {
   color: #fff;
   background-color: rgba(0, 106, 80, 1);
 }
-.sub2:hover{
+.sub2:hover {
   transform: scale(1.1);
+  background-color: red;
+  color: white;
 }
 
-.para2{
+.para2 {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
@@ -477,29 +498,32 @@ td {
   color: rgba(14, 14, 14, 0.7);
 }
 
-footer{
+footer {
   width: 100%;
   height: 266px;
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
 }
-.footer-contant{
+.footer-contant {
   display: flex;
   margin-top: 80px;
   justify-content: center;
   align-items: center;
 }
-.footer-head{
+.footer-head {
   font-size: 32px;
   line-height: 38px;
   font-weight: 700;
   margin-top: 50px;
   margin-bottom: 32px;
   color: rgba(14, 14, 14, 1);
-
+  cursor: pointer;
 }
-hr{
-  background-color:rgba(14, 14, 14, 0.1);
+.footer-head:hover{
+  color: red;
+}
+hr {
+  background-color: rgba(14, 14, 14, 0.1);
   /* margin-bottom: 32px; */
   width: 1122px;
   height: 2px;
@@ -509,10 +533,10 @@ hr{
   text-align: center;
   align-items: center;
 }
-footer img{
+footer img {
   margin: 20px;
   cursor: pointer;
 }
-footer img:hover{
+footer img:hover {
   transform: scale(1.1);
 }
