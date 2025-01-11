@@ -33,6 +33,9 @@ body {
   color: rgba(14, 14, 14, 1);
   cursor: pointer;
 }
+.nav:hover{
+  transform: scale(1.1);
+}
 
 .nav2 {
   font-size: 20px;
@@ -387,8 +390,7 @@ td {
   transform: scale(1.1);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   background-color: rgba(198, 228, 214, 1);
-  background-color: red;
-  color: white;
+
 }
 .input {
   text-align: center;
